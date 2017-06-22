@@ -1,0 +1,21 @@
+{
+  "name": "hoppjs.github.io",
+  "homepage": "http://hoppjs.com",
+  "authors": [
+    "Ata Gowani <atagowani@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
