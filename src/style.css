@@ -22,7 +22,7 @@ body {
   background: #fff;
 }
 
-.navbar-brand {
+.navbar-light .navbar-brand {
   font-size: 2rem;
   color: #2196F3;
 }
