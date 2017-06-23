@@ -14,5 +14,5 @@ This is the repository for the official website for Hopp JS available at [hoppjs
 
 **Ready to add your changes?**
 
-[Pull Request](https://github.com/hoppjs/hoppjs.github.io/compare)
+Open an [Issue](https://github.com/hoppjs/hoppjs.github.io/issues/new) and submit a [Pull Request](https://github.com/hoppjs/hoppjs.github.io/compare)
 
