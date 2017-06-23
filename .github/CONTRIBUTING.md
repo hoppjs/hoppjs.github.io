@@ -73,4 +73,11 @@ Code cycle: `fix_n` => `master` => `master#vXX.XX.XX`
 
 ## Modification of Dependencies
 
-The dependencies of the project is defined in `bower.json`.
+The dependencies of the project are defined in `bower.json`.
+
+### Modifying Bower Dependencies
+
+  - Updates to the `bower.json` should be absolutely minimal.
+  - If it's possible to only commit the single change to the `bower.json`then only commit that.
+  - If config files need to be updated/added, add those in your commit.
+  - Do NOT modify any other files in a commit that modifies the `bower.json`.
