@@ -24,14 +24,10 @@ Any additional style guides listed in this section should be seen as overriding 
 
 ### CSS Style Guide
 
- - All CSS is written in PostCSS.
-  - `precss` handles preprocessing (i.e. variables, mixins, etc.)
-  - `autoprefixer` handles vendor prefixes based on supported browsers.
- - First and foremost, our CSS follows the rules of [SUIT CSS](https://github.com/suitcss/suit/blob/master/doc/STYLE.md).
- - We follow a strict property order, the same as Twitter's old internal styleguide - RECESS, which can
- be found in `stylelint.order.js`. This is so someone reading your CSS can easily find.
- - Rules that start with `@` must always be preceeded with an empty line.
- - Numbers should never have leading zeros. (i.e. it's `.8`, not `0.8`)
+  - First and foremost, our CSS follows the rules of [SUIT CSS](https://github.com/suitcss/suit/blob/master/doc/STYLE.md).
+  - We follow a strict property order, the same as Twitter's old internal styleguid - RECESS, which can be found in `stylelint.order.js`. This is so someone reading your CSS can easily find.
+  - Rules that start with `@` must always be preceeded with an empty line.
+  - Numbers should never have leading zeros. (i.e. it's `.8`, not `0.8`)
 
 ### JS Style Guide
 
