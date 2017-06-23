@@ -4,9 +4,15 @@ This is the repository for the official website for Hopp JS available at [hoppjs
 
 # Set up for Contributing
 
-Clone the repo by running `git clone https://github.com/hoppjs/hoppjs.github.io`
+**Clone**
 
-Next install the dependencies by running `bower install` in the repo's file.
+`git clone https://github.com/hoppjs/hoppjs.github.io`
 
-When you are ready to add your changes make a [Pull Request](https://github.com/hoppjs/hoppjs.github.io/compare)
+**Install dependencies**
+
+`bower install`
+
+**Ready to add your changes?**
+
+[Pull Request](https://github.com/hoppjs/hoppjs.github.io/compare)
 
