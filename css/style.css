@@ -24,10 +24,6 @@ body {
   }
 }
 
-.navbar {
-  background: #fff;
-}
-
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:visited {
   font-size: 2rem;
   color: #2196F3;
