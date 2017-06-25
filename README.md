@@ -1,8 +1,10 @@
 # hoppjs.com
 
-This is the repository for the official website for Hopp JS available at [hoppjs.com](http://hoppjs.com).
+This is the repository for the official website for hopp available at [hoppjs.com](http://hoppjs.com).
 
-# Set up for Contributing
+## Set up for Contributing
+
+Please be sure to read the **[Contribution Guide](./.github/CONTRIBUTING.md)** before making any changes. Ready to contribute? Follow the steps below to get started.
 
 **Clone**
 
@@ -11,8 +13,3 @@ This is the repository for the official website for Hopp JS available at [hoppjs
 **Install dependencies**
 
 `bower install`
-
-**Ready to add your changes?**
-
-Open an [Issue](https://github.com/hoppjs/hoppjs.github.io/issues/new) and submit a [Pull Request](https://github.com/hoppjs/hoppjs.github.io/compare)
-
