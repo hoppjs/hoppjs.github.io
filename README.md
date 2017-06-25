@@ -13,3 +13,9 @@ Please be sure to read the **[Contribution Guide](./.github/CONTRIBUTING.md)** b
 **Install dependencies**
 
 `bower install`
+
+## License
+
+Copyright (C) 2017 10244872 Canada Inc.
+
+Licensed under [MIT](LICENSE.md) license.
