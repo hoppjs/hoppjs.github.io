@@ -11,10 +11,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Custom Style Sheet -->
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-toggleable-md">
+    <nav class="navbar navbar-toggleable-sm navbar-light">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
       <a class="navbar-brand" href="#">hopp</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav navbar-right ml-auto">
@@ -40,7 +43,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-6 offset-3">
+          <div class="col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
             <div class="terminal">
               <div class="frame">
                 <span class="red"></span>
@@ -49,10 +52,10 @@
               </div>
               <ul class="shell">
                 <li class="cmd">hopp</li>
-                <li><span class="color-red">hopp:default:css</span> Starting task</li>
-    <li><span class="color-magenta">hopp:default:js</span> Starting task</li>
-    <li><span class="color-red">hopp:default:css</span> Task ended (took 21 ms)</li>
-    <li><span class="color-magenta">hopp:default:js</span> Task ended (took 14 ms)</li>
+                <li><span class="color-red">hopp:css</span> Starting task</li>
+                <li><span class="color-magenta">hopp:js</span> Starting task</li>
+                <li><span class="color-red">hopp:css</span> Task ended (took 21 ms)</li>
+                <li><span class="color-magenta">hopp:js</span> Task ended (took 14 ms)</li>
               </ul>
             </div>
             
@@ -86,7 +89,7 @@
       <div class="container text-center py-5">
         <div class="row">
           <div class="col-12">
-            <p>Code &amp; docs licensed under <a href="">MIT</a> license.</p>
+            <p>Code &amp; docs licensed under <a href="https://github.com/hoppjs/hoppjs.github.io/blob/master/LICENSE.md">MIT</a> license.</p>
             <p>Copyright &copy; 2017 <a href="https://emcee.agency">10244872 Canada Inc.</a></p>
           </div>
         </div>
