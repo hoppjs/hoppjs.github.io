@@ -161,3 +161,8 @@ footer a,
 footer p{
   color: #fff;
 }
+
+.content-img {
+  height: 8rem;
+  padding-bottom: 1rem;
+}
