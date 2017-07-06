@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>hoppJS - Crazy rapid build system.</title>
 
-    <!-- Bootstrap CSS -->
+    <meta property="og:title" content="hoppJS - Crazy rapid build system.">
+    <meta property="og:url" content="https://hoppjs.com">
+    <meta name="copyright" content="2017 10244872 Canada Inc.">
+    <meta name="description" content="Crazy rapid build system.">
+    <meta name="keywords" content="build system,build tool,build,task,task runner,javascript,js,gulp,grunt,cache,caching,fast,performant,performance,speed">
+
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <!-- Custom Style Sheet -->
     <link rel="stylesheet" href="src/css/style.css">
   </head>
   <body>
@@ -51,10 +54,10 @@
               </div>
               <ul class="shell">
                 <li class="cmd">hopp</li>
-                <li><span class="color-red">hopp:css</span> Starting task</li>
-                <li><span class="color-magenta">hopp:js</span> Starting task</li>
-                <li><span class="color-red">hopp:css</span> Task ended (took 21 ms)</li>
-                <li><span class="color-magenta">hopp:js</span> Task ended (took 14 ms)</li>
+                <li><span class="color-red">css</span> Starting task for 1 file</li>
+                <li><span class="color-magenta">js</span> Starting task for 1 file</li>
+                <li><span class="color-red">css</span> Task ended (took 21 ms)</li>
+                <li><span class="color-magenta">js</span> Task ended (took 14 ms)</li>
               </ul>
             </div>
             
@@ -70,17 +73,17 @@
     <div class="container">
       <div class="row p-5">
         <div class="col-md-4 text-center">
-          <img src="src/imgs/hat.png" alt="hat" class="content-img">
+          <img src="src/img/hat.png" alt="hat" class="content-img">
           <h3>Simple &amp; Magical</h3>
           <p>hopp tries to be very magical so that your code can be simple. You do minimum work for maximum output.</p>
         </div>
         <div class="col-md-4 text-center">
-          <img src="src/imgs/scale.png" alt="scale" class="content-img">
+          <img src="src/img/scale.png" alt="scale" class="content-img">
           <h3>Extremely Scalable</h3>
           <p>Most build tools are built to be simple and often slow down drastically at scale. We've built hopp to scale first, not just for small OSS projects.</p>
         </div>
         <div class="col-md-4 text-center">
-          <img src="src/imgs/rocket.png" alt="rocket" class="content-img">
+          <img src="src/img/rocket.png" alt="rocket" class="content-img">
           <h3>Supercharged</h3>
           <p>We've optimized hopp to its limits. It's built to be as fast as possible without trading off usefulness or stability.</p>
         </div>
@@ -93,15 +96,28 @@
           <div class="col-12">
             <p>Code &amp; docs licensed under <a href="https://github.com/hoppjs/hoppjs.github.io/blob/master/LICENSE.md">MIT</a> license.</p>
             <p>Copyright &copy; 2017 <a href="https://emcee.agency">10244872 Canada Inc.</a></p>
+            <p>Your data is being monitored. Checkout our <a href="https://github.com/hoppjs/hoppjs.github.io/blob/master/PRIVACY.md">privacy policy</a> for more details.</p>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="bower_components/jquery/dist/jquery.min.js"> </script>
-    <script src="bower_components/tether/dist/js/tether.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga')
 
+      ga('create', 'UA-102146518-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <script id="inspectletjs">
+      window.__insp=window.__insp||[],__insp.push(["wid",1570797475]),function(){function t(){if(void 0===window.__inspld){window.__inspld=1
+var t=document.createElement("script")
+t.type="text/javascript",t.async=!0,t.id="inspsync",t.src=("https:"==document.location.protocol?"https":"http")+"://cdn.inspectlet.com/inspectlet.js"
+var n=document.getElementsByTagName("script")[0]
+n.parentNode.insertBefore(t,n)}}setTimeout(t,500),"complete"!=document.readyState?window.attachEvent?window.attachEvent("onload",t):window.addEventListener("load",t,!1):t()}()
+    </script>
   </body>
 </html>
